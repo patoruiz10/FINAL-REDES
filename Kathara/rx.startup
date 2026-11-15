@@ -1,0 +1,4 @@
+ip address add 192.168.12.14/29 dev eth0
+ip address add 192.168.0.54/30 dev eth1
+ip address add 192.168.0.57/30 dev eth2
+ip address add 192.168.0.90/30 dev eth3
