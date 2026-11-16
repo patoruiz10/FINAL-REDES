@@ -1,2 +1,0 @@
-dhclient eth0
-systemctl start named

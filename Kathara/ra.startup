@@ -9,3 +9,5 @@ ip address add 192.168.0.78/30 dev eth2
 
 # NAT hacia Internet
 iptables -t nat -A POSTROUTING -o eth3 -j MASQUERADE
+
+/etc/init.d/isc-dhcp-server start
