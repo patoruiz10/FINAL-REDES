@@ -1,0 +1,2 @@
+ip address add 192.168.13.9/30 dev eth0
+ip route add default via 192.168.13.10 dev eth0

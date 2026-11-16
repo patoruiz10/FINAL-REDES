@@ -1,0 +1,117 @@
+$TTL 86400
+@   IN  SOA ha.selvent.izo. root.selvent.izo. ( 1 3600 900 604800 86400 )
+@       IN  NS   ha.selvent.izo.
+
+; ===== Hosts =====
+ha          IN  A   10.0.0.1
+hb          IN  A   172.16.0.1
+hc          IN  A   172.17.0.1
+hd          IN  A   192.168.12.1
+he          IN  A   172.19.0.1
+hf          IN  A   192.168.13.1
+hg          IN  A   192.168.10.1
+hh          IN  A   172.19.2.1
+hi          IN  A   192.168.13.5
+hj          IN  A   192.168.10.129
+hk          IN  A   172.16.8.1
+hl          IN  A   172.16.16.1
+hm          IN  A   192.168.13.9
+hn          IN  A   172.16.24.1
+ho          IN  A   192.168.11.1
+hp          IN  A   172.19.4.1
+hq          IN  A   172.18.32.1
+hr          IN  A   172.16.32.1
+hs          IN  A   172.17.64.1
+ht          IN  A   10.2.0.1
+hv          IN  A   172.18.0.1
+hx          IN  A   192.168.12.9
+
+; ===== Routers (un nombre por interfaz) =====
+; RA
+ra-eth0     IN  A   10.1.255.254
+ra-eth1     IN  A   192.168.0.1
+ra-eth2     IN  A   192.168.0.78
+; RBV
+rbv-eth0    IN  A   172.16.7.254
+rbv-eth1    IN  A   172.18.31.254
+rbv-eth2    IN  A   192.168.0.2
+rbv-eth3    IN  A   192.168.0.5
+; RC
+rc-eth0     IN  A   172.17.63.254
+rc-eth1     IN  A   192.168.0.6
+rc-eth2     IN  A   192.168.0.9
+rc-eth3     IN  A   192.168.0.81
+; RD
+rd-eth0     IN  A   192.168.12.6
+rd-eth1     IN  A   192.168.0.10
+rd-eth2     IN  A   192.168.0.13
+; RE
+re-eth0     IN  A   172.19.1.254
+re-eth1     IN  A   192.168.0.14
+re-eth2     IN  A   192.168.0.17
+; RF
+rf-eth0     IN  A   192.168.13.2
+rf-eth1     IN  A   192.168.0.18
+rf-eth2     IN  A   192.168.0.21
+rf-eth3     IN  A   192.168.0.89
+; RG
+rg-eth0     IN  A   192.168.10.126
+rg-eth1     IN  A   192.168.0.22
+rg-eth2     IN  A   192.168.0.25
+; RH
+rh-eth0     IN  A   172.19.3.254
+rh-eth1     IN  A   192.168.0.26
+rh-eth2     IN  A   192.168.0.29
+rh-eth3     IN  A   192.168.0.82
+; RI
+ri-eth0     IN  A   192.168.13.6
+ri-eth1     IN  A   192.168.0.30
+ri-eth2     IN  A   192.168.0.33
+; RJ
+rj-eth0     IN  A   192.168.10.254
+rj-eth1     IN  A   192.168.0.34
+rj-eth2     IN  A   192.168.0.37
+; RK
+rk-eth0     IN  A   172.16.15.254
+rk-eth1     IN  A   192.168.0.38
+rk-eth2     IN  A   192.168.0.41
+; RL
+rl-eth0     IN  A   172.16.23.254
+rl-eth1     IN  A   192.168.0.42
+rl-eth2     IN  A   192.168.0.45
+; RM
+rm-eth0     IN  A   192.168.13.10
+rm-eth1     IN  A   192.168.0.46
+rm-eth2     IN  A   192.168.0.49
+rm-eth3     IN  A   192.168.0.85
+; RN
+rn-eth0     IN  A   172.16.31.254
+rn-eth1     IN  A   192.168.0.50
+rn-eth2     IN  A   192.168.0.53
+; RO
+ro-eth0     IN  A   192.168.11.126
+ro-eth1     IN  A   192.168.0.58
+ro-eth2     IN  A   192.168.0.61
+; RP
+rp-eth0     IN  A   172.19.5.254
+rp-eth1     IN  A   192.168.0.62
+rp-eth2     IN  A   192.168.0.65
+; RQ
+rq-eth0     IN  A   172.18.63.254
+rq-eth1     IN  A   192.168.0.66
+rq-eth2     IN  A   192.168.0.69
+rq-eth3     IN  A   192.168.0.86
+; RR
+rr-eth0     IN  A   172.16.39.254
+rr-eth1     IN  A   192.168.0.70
+rr-eth2     IN  A   192.168.0.73
+; RST
+rst-eth0    IN  A   172.17.127.254
+rst-eth1    IN  A   10.3.255.254
+rst-eth2    IN  A   192.168.0.74
+rst-eth3    IN  A   192.168.0.77
+; RX
+rx-eth0     IN  A   192.168.12.14
+rx-eth1     IN  A   192.168.0.54
+rx-eth2     IN  A   192.168.0.57
+rx-eth3     IN  A   192.168.0.90

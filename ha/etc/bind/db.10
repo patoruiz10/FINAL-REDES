@@ -1,0 +1,8 @@
+$TTL 86400
+@   IN  SOA ha.selvent.izo. root.selvent.izo. ( 1 3600 900 604800 86400 )
+@       IN  NS   ha.selvent.izo.
+
+1.0.0       IN  PTR  ha.selvent.izo.
+254.255.1   IN  PTR  ra-eth0.selvent.izo.
+1.0.2       IN  PTR  ht.selvent.izo.
+254.255.3   IN  PTR  rst-eth1.selvent.izo.
