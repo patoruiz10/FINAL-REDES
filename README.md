@@ -54,20 +54,6 @@ kathara settings
 
 En el menú, elegir **Choose default image** e ingresar `kathara/quagga`.
 
-### 3. Levantar el laboratorio
-
-```
-cd Kathara
-kathara lstart
-```
-
-Esperar 1 o 2 minutos para que OSPF converja y el DHCP asigne las direcciones.
-
-Para detenerlo:
-
-```
-kathara lclean
-```
 
 ## Servicios configurados
 
