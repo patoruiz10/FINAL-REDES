@@ -6,7 +6,7 @@ $TTL 86400
 ha          IN  A   10.0.0.1
 ha2         IN  A   10.0.0.2
 hb          IN  A   172.16.0.1
-hc          IN  A   172.17.0.1
+hc          IN  A   172.20.0.1
 hd          IN  A   192.168.12.1
 he          IN  A   172.19.0.1
 hf          IN  A   192.168.13.1
@@ -22,7 +22,7 @@ ho          IN  A   192.168.11.1
 hp          IN  A   172.19.4.1
 hq          IN  A   172.18.32.1
 hr          IN  A   172.16.32.1
-hs          IN  A   172.17.64.1
+hs          IN  A   172.20.64.1
 ht          IN  A   10.2.0.1
 hv          IN  A   172.18.0.1
 hx          IN  A   192.168.12.9
@@ -38,7 +38,7 @@ rbv-eth1    IN  A   172.18.31.254
 rbv-eth2    IN  A   192.168.0.2
 rbv-eth3    IN  A   192.168.0.5
 ; RC
-rc-eth0     IN  A   172.17.63.254
+rc-eth0     IN  A   172.20.63.254
 rc-eth1     IN  A   192.168.0.6
 rc-eth2     IN  A   192.168.0.9
 rc-eth3     IN  A   192.168.0.81
@@ -107,7 +107,7 @@ rr-eth0     IN  A   172.16.39.254
 rr-eth1     IN  A   192.168.0.70
 rr-eth2     IN  A   192.168.0.73
 ; RST
-rst-eth0    IN  A   172.17.127.254
+rst-eth0    IN  A   172.20.127.254
 rst-eth1    IN  A   10.3.255.254
 rst-eth2    IN  A   192.168.0.74
 rst-eth3    IN  A   192.168.0.77

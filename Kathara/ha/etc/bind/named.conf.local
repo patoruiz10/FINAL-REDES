@@ -17,10 +17,10 @@ zone "16.172.in-addr.arpa" {
     file "/etc/bind/db.172.16";
 };
 
-// 172.17.x.x     -> LAN C, S
-zone "17.172.in-addr.arpa" {
+// 172.20.x.x     -> LAN C, S
+zone "20.172.in-addr.arpa" {
     type master;
-    file "/etc/bind/db.172.17";
+    file "/etc/bind/db.172.20";
 };
 
 // 172.18.x.x     -> LAN V, Q
