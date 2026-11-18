@@ -11,3 +11,7 @@ ip address add 192.168.0.78/30 dev eth2
 iptables -t nat -A POSTROUTING -o eth3 -j MASQUERADE
 
 /etc/init.d/isc-dhcp-server start
+
+# Publica el servidor HTTP de hb hacia Internet (puerto 80)
+iptables -t nat -A PREROUTING -i eth3 -p tcp --dport 80 -j DNAT --to-destination 172.16.0.1:80
+

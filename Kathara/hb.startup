@@ -1,2 +1,8 @@
 ip address add 172.16.0.1/21 dev eth0
 ip route add default via 172.16.7.254 dev eth0
+
+# Activa los módulos de proxy de Apache (necesarios para ProxyPass en api.conf)
+a2enmod proxy proxy_http
+
+# Arranca el servidor HTTP, que reenvía los pedidos a la API (192.168.1.8:3000)
+service apache2 start
